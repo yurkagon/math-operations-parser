@@ -102,16 +102,6 @@ However, it is important to note that the repository preserves an old educationa
 - adjust package/import structure depending on your environment
 - open the code in a simple Java IDE project and adapt it for modern execution
 
-## Limitations
-
-This project is educational in nature, so it has several intentional or historical limitations:
-
-- very basic input validation
-- no complete handling of all invalid input scenarios
-- no tests
-- no build, CI, or packaging
-- the code reflects early learning-stage Java practice and is not intended to be production-quality
-
 ## Why This Repository Exists
 
 This repository can be useful as:
@@ -120,21 +110,3 @@ This repository can be useful as:
 - a simple demonstration of recursive parenthesis handling
 - an example of manual arithmetic expression parsing
 - a small experiment for electric circuit resistance calculations
-
-## Possible Improvements
-
-If I ever return to this project, it could be improved by:
-
-- extracting shared parsing logic into separate classes
-- introducing a proper token model instead of working only with strings
-- adding tests
-- turning the project into a Maven or Gradle application
-- adding support for unary minus, better validation, and clearer error messages
-
-## Note
-
-This README describes the repository as it exists now: an old university learning experiment, not a finished or actively maintained product.
-
-## License
-
-This project is licensed under the MIT License. See the `LICENSE` file for details.
